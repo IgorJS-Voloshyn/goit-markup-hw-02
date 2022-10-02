@@ -6,7 +6,7 @@
     --secondary-bgc: #F5F4FA;
     --accent-bgc: #2F303A;
 }
-    body {
+body {
     background-color: var(--color-white);
     color: var(--primary-text);
     font-family: "Roboto", sans-serif;
@@ -40,7 +40,7 @@ color: var(--color-accent);
 }
 /* site-nav */
 .site-nav .link{
-    color: inherit;
+    color: var(--primary-text);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -51,6 +51,9 @@ color: var(--color-accent);
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--color-accent);
+}
+.site-nav .contact-header{
+    color: var(--secondary-text);
 }
 
 .site-nav .link.current{
@@ -130,14 +133,14 @@ color: var(--color-accent);
     text-align: center;
 }
 .team-item-title{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 }
 .team-item-text{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
 }
 .visually-hidden{
     position: absolute;
@@ -172,6 +175,11 @@ color: var(--color-accent);
 .logo-footer{
     text-decoration: none;
     color: var(--color-white);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo-footer:hover,
 .logo-footer:focus{
@@ -183,14 +191,22 @@ color: var(--color-accent);
 .address {
     color: var(--color-white);
     text-decoration: none;
+    font-family: 'Roboto';
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .address:hover,
 .address:focus{
    color: var(--color-accent);
 }
 .contact{
+    font-family: 'Roboto';
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 } 
